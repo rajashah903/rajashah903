@@ -1,0 +1,121 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("image4.jpg");
+    color: white;
+}
+
+/* Header Animation */
+header {
+    background-color: #02182e;
+    padding: 15px;
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navbar Hover Effect */
+#div a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+#div a:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+/* Main Section Animation */
+#home {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animated Profile Name */
+#demo2 {
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#demo2:hover {
+    color: magenta;
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+
+
+
+/* Contact Section Animation */
+#contact {
+    text-align: left;
+    margin-left: 2px;
+}
+
+#hov a img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#hov a img:hover {
+    transform: rotate(360deg);
+}
+
+/* Footer Animation */
+#fot {
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#cer:hover{
+    background-color: red;
+}
+#tol{
+ 
+    
+}
