@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Mymethod(string fname)
+        {
+            Console.WriteLine(fname + " Sony");
+        }
+        static void Main(string[] args)
+        {
+            Mymethod("Raja");
+            Mymethod("Sumit");
+            Console.ReadLine();
+        }
+    }
+}

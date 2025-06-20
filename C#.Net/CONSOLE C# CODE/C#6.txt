@@ -1,0 +1,18 @@
+using System;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Method(string child1, string child2, string child3)
+        {
+            Console.WriteLine("The Youngest child is: " + child3);
+        }
+
+        static void Main(string[] args)
+        {
+            Method("Liam", "Sony", "Raja"); // Correct method call
+            Console.ReadLine();
+        }
+    }
+}

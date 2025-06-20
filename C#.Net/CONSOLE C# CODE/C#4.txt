@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static string concat(string x,string y)
+        {
+            return  x+y;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Concat Two String"+concat("RAJA ","SONY"));
+            Console.ReadLine();
+        }
+    }
+}

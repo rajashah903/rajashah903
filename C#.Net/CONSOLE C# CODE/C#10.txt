@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Car
+    {
+        string model;
+        int year;
+        string color;
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Car obj = new Car();
+                obj.model = "BMW";
+                obj.year = 2025;
+                obj.color = "White";
+                Console.WriteLine("Car Model "+obj.model);
+                Console.WriteLine("Car Year "+obj.year);
+                Console.WriteLine("Car color " + obj.color);
+                Console.ReadLine();
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void MyMethod()
+        {
+            Console.WriteLine("I just get executed!");
+
+        }
+        static void Main(string[] args)
+        {
+            MyMethod();
+            Console.ReadLine();
+        }
+    }
+}
