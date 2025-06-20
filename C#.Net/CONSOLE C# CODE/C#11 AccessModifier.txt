@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Car
+    {
+        public string model = "AUDI";
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car ford = new Car();
+            Console.WriteLine("Car Model is "+ford.model);
+            Console.ReadLine();
+        }
+    }
+}
