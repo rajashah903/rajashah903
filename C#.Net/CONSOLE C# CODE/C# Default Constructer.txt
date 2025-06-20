@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Mymethod(string country="Norway")
+        {
+            Console.WriteLine(country);
+        }
+        static void Main(string[] args)
+        {
+            Mymethod("Kolkata");
+            Mymethod();
+            Console.ReadLine();
+        }
+    }
+}

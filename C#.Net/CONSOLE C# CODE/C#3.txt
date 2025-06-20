@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static int Sum(int x)
+        {
+            return  x+5;
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sum is "+Sum(50));
+            Console.ReadLine();
+        }
+    }
+}

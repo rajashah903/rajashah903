@@ -1,0 +1,20 @@
+using System;
+
+namespace ConsoleApplication1
+{
+    class Car
+    {
+       public string Color = "Red";
+    }
+    class Program
+    {
+            static void Main(string[] args)
+            {
+                Car obj = new Car();
+                Car obj1 = new Car();
+                Console.WriteLine("Car Color is "+obj.Color);
+                Console.WriteLine("Car Color is " + obj1.Color);
+                Console.ReadLine();
+        }
+    }
+}
